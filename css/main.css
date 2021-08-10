@@ -1,0 +1,119 @@
+span {
+   color: #7A7A7A;
+}
+
+nav ul li a {
+   color: #515151;
+}
+
+.main-button {
+   background-color: #1E96C8;
+}
+
+.main-button a {
+   color: #FFFFFF;
+}
+
+.covid dt {
+   color: #DB0000;
+}
+
+.recovered dt {
+   color: #05B135;
+}
+
+.news-section h3 {
+   color: #202020;
+}
+
+.news-section time {
+   color: #6B6D97;
+}
+
+.notfilication-section {
+   background-color: #EFBA54;
+}
+
+.notfilication-section button {
+   background-color: rgba(255, 139, 54, 0.9);
+   color: #ffffff
+}
+
+.second-news h3 {
+   color: #202020;
+}
+
+.second-news p {
+   color: #434343;
+}
+
+.second-news time {
+   color: #7688A4;
+}
+
+.second-news button {
+   background-color: #295093;
+   color: #ffffff;
+}
+
+.reklama h2 {
+   color: #295093;
+}
+
+.reklama p {
+   color: #333333;
+}
+
+footer {
+   background-color: #295093;
+}
+
+footer p {
+   color: #ffffff;
+}
+
+footer a {
+   color: #ffffff;
+}
+
+footer button {
+   background-color: #ffffff;
+}
+
+footer button a {
+   color: #295093;
+}
+
+footer button img {
+   background-color: #295093;
+}
+
+/* --------------------------------------TIRDH PAGE--------------------------------------- */
+
+.hashtag p {
+   color: #28508E;
+}
+
+.popular-news h2 {
+   color: #202020;
+}
+
+.popular-news a {
+   color: #202020;
+}
+
+.popular-news time {
+   color: #7688A4;
+}
+
+.news-in-theme h3 {
+   color: #202020;
+}
+
+.news-in-theme a {
+   color: #202020;
+}
+
+.news-in-theme time {
+   color: #7688A4;
+}
