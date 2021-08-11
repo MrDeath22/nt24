@@ -193,8 +193,8 @@ footer button img {
 
 .news-in-theme {
    display: flex;
-   margin-left: 80px;
-   width: 400px;
+   flex-wrap: wrap;
+   justify-content: space-around;
 }
 
 .hashtag p {
