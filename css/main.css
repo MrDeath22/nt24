@@ -60,19 +60,21 @@ ul {
 
 .covid-section {
    display: flex;
-   flex-wrap: wrap row;
 }
 
-.covid-section dl {
+.covid-section__item {
    display: flex;
+   margin-left: 100px;
 }
 
 .covid dt {
    color: #DB0000;
+   margin-right: 60px;
 }
 
 .recovered dt {
    color: #05B135;
+   margin-right: 60px;
 }
 
 .news-section h3 {
