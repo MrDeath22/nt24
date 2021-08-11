@@ -100,10 +100,12 @@ ul {
    justify-content: space-around;
 }
 
-.second-news__item {
+.second-news__item a {
    display: flex; 
-   max-width: 600px;
+   width: 800px;
 }
+
+
 
 .second-news2 {
    max-width: 400px;
@@ -191,8 +193,8 @@ footer button img {
 
 .news-in-theme {
    display: flex;
-   margin: 1px 80px;
-   max-width: 300px;
+   margin-left: 80px;
+   width: 400px;
 }
 
 .hashtag p {
