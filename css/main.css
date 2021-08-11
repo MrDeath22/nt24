@@ -1,9 +1,45 @@
+body {
+   font-family: 'Rubik', sans-serif;
+}
+
+header {
+   background-color: #F6F6F9;
+}
+
 span {
    color: #7A7A7A;
 }
 
+time {
+   color: #7688A4;
+}
+
+p {
+   color: #434343;
+}
+
 nav ul li a {
    color: #515151;
+}
+
+a {
+   text-decoration: none;
+}
+
+ul {
+   list-style: none;
+}
+
+.header {
+   display: flex;
+   flex-wrap: wrap row;
+   justify-content: space-between;
+}
+
+.nav-list {
+   display: flex;
+   flex-wrap: wrap row;
+   justify-content: space-around;
 }
 
 .main-button {
@@ -14,6 +50,15 @@ nav ul li a {
    color: #FFFFFF;
 }
 
+.covid-section {
+   display: flex;
+   flex-wrap: wrap row;
+}
+
+.covid-section dl {
+   display: flex;
+}
+
 .covid dt {
    color: #DB0000;
 }
@@ -22,16 +67,18 @@ nav ul li a {
    color: #05B135;
 }
 
-.news-section h3 {
-   color: #202020;
+.news-section ul {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
 }
 
-.news-section time {
-   color: #6B6D97;
-}
 
 .notfilication-section {
    background-color: #EFBA54;
+   display: flex;
+   flex-wrap: wrap-reverse;
+   justify-content: space-evenly;
 }
 
 .notfilication-section button {
@@ -39,21 +86,37 @@ nav ul li a {
    color: #ffffff
 }
 
-.second-news h3 {
+.all-news {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.second-news__item {
+   display: flex; 
+   max-width: 600px;
+}
+
+.second-news2 {
+   max-width: 400px;
+   background-color: #F6F6F9;
+}
+
+.second-news_section h3 {
    color: #202020;
+   display: flex;
+   flex-wrap: wrap-reverse;
 }
 
-.second-news p {
-   color: #434343;
-}
-
-.second-news time {
-   color: #7688A4;
-}
-
-.second-news button {
+.second-news_section button {
    background-color: #295093;
    color: #ffffff;
+}
+
+.reklama {
+   display: flex;
+   flex-wrap: wrap-reverse;
+   justify-content: space-evenly;
 }
 
 .reklama h2 {
@@ -66,6 +129,22 @@ nav ul li a {
 
 footer {
    background-color: #295093;
+}
+
+.footer-logo {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.footer-about {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.footer-about__item {
+   max-width: 300px;
 }
 
 footer p {
@@ -89,6 +168,24 @@ footer button img {
 }
 
 /* --------------------------------------TIRDH PAGE--------------------------------------- */
+
+.main-div {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.main-section {
+   display: flex;
+   flex-wrap: wrap;
+   max-width: 800px;
+}
+
+.news-in-theme {
+   display: flex;
+   margin: 1px 80px;
+   max-width: 300px;
+}
 
 .hashtag p {
    color: #28508E;

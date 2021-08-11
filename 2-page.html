@@ -6,11 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>«NAMANGANLIKLAR24</title>
 </head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/main.css">
 <body>
 
   <header>
-    <div>
+    <div class="header">
       <div>
         <a href="#"><img src="rasm/logo.svg" alt="logo"></a>
         <ul>
@@ -21,16 +24,16 @@
       </div>
       <div>
         <a href="#"><img src="rasm/search.svg" alt="search"></a>
-        <a href="#"><img src="rasm/ru.svg" alt="ru">РУ</a>
+        <a href="#"><img src="rasm/ru.svg" alt="ru" style="color: #535353;">РУ</a>
       </div>
       <div>
         <button class="main-button"><a href="#"><img src="rasm/telegram.svg" alt="telegram"> Подписатся</a></button>
       </div>
-
-      <nav>
-        <ul>
-          <li><a href="#">Узбекистана</a></li>
-          <li><a href="#">Мир</a></li>
+    </div>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li><a href="3-page.html">Узбекистана</a></li>
+          <li><a href="2-page.html">Мир</a></li>
           <li><a href="#">Экономика</a></li>
           <li><a href="#">Политика</a></li>
           <li><a href="#">Общество</a></li>
@@ -47,217 +50,153 @@
   </header>
 
   <main>
-    <section>
-      <img src="img/icon-covid.png" alt="icon-covid" width="43" height="45">
-      <h2>Коронавирус COVID-19 <br> в Узбекистане</h2>
-      <dl>
-        <div class="covid">
-          <dt>
-            <img src="img/icon-infected.png" alt="infected" width="38" height="40">
-            Инфицированы
-          </dt>
-          <dd>2753</dd>
-        </div>
-        <div class="recovered">
-          <dt>
-            <img src="img/icon-recovered.svg" alt="recovered" width="38" height="40">
-            Выздоровели
-          </dt>
-          <dd>2245</dd>
-        </div>
-        <div>
-          <dt>
-            <img src="img/icon-dead.svg" alt="dead" width="38" height="40">
-            Умерли
-          </dt>
-          <dd>0</dd>
-        </div>
-      </dl>
-    </section>
 
-    <section>
+    <section class="second-news_section">
       <h2>Политика</h2>
-      <div>
-        <div>
-          <a href="#"><img src="rasm/1.jpg" alt="sirdaryo"></a>
+      <div class="all-news">
+        <div class="second-news">
+          <div class="second-news__item">
+            <ul>
+              <li>
+                <a href="#">
+                  <div>
+                    <img src="img/Rectangle-38.jpg" alt="rectangle" width="252" height="143">
+                  </div>
+                  <div>
+                    <h3>По факту прорыва Сардобинского водохранилища <br>
+                      возбуждено уголовное дело</h3>
+                    <p>После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
+                    </p>
+                    <time datetime="2020-07-07"> <i class='bx bx-calendar'></i> 11:31 / 15.05.2020</time>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div>
+                    <img src="img/Rectangle-40.jpg" alt="rectangle" width="252" height="143">
+                  </div>
+                  <div>
+                    <h3>По факту прорыва Сардобинского водохранилища <br>
+                      возбуждено уголовное дело</h3>
+                    <p>После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
+                    </p>
+                    <time datetime="2020-07-07"> <i class='bx bx-calendar'></i> 11:31 / 15.05.2020</time>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div>
+                    <img src="img/Rectangle-21.jpg" alt="rectangle" width="252" height="143">
+                  </div>
+                  <div>
+                    <h3>По факту прорыва Сардобинского водохранилища <br>
+                      возбуждено уголовное дело</h3>
+                    <p>После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
+                    </p>
+                    <time datetime="2020-07-07"> <i class='bx bx-calendar'></i> 11:31 / 15.05.2020</time>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div>
+                    <img src="img/Rectangle-23.jpg" alt="rectangle" width="252" height="143">
+                  </div>
+                  <div>
+                    <h3>По факту прорыва Сардобинского водохранилища <br>
+                      возбуждено уголовное дело</h3>
+                    <p>После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
+                    </p>
+                    <time datetime="2020-07-07"> <i class='bx bx-calendar'></i> 11:31 / 15.05.2020</time>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div>
+                    <img src="img/Rectangle-24.jpg" alt="rectangle" width="252" height="143">
+                  </div>
+                  <div>
+                    <h3>По факту прорыва Сардобинского водохранилища <br>
+                      возбуждено уголовное дело</h3>
+                    <p>После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
+                    </p>
+                    <time datetime="2020-07-07"> <i class='bx bx-calendar'></i> 11:31 / 15.05.2020</time>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div>
+                    <img src="img/Rectangle-38.jpg" alt="rectangle" width="252" height="143">
+                  </div>
+                  <div>
+                    <h3>По факту прорыва Сардобинского водохранилища <br>
+                      возбуждено уголовное дело</h3>
+                    <p>После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.
+                    </p>
+                    <time datetime="2020-07-07"> <i class='bx bx-calendar'></i> 11:31 / 15.05.2020</time>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <button>Больше новостей</button>
         </div>
-        <div class="news-2page">
+        <div class="second-news2">
           <div>
-            <h3><a href="#">По факту прорыва Сардобинского водохранилища 
-              возбуждено уголовное дело</a></h3>
-            <p><a href="#">После прорыва дамбы Сардобинского водохранилища возбуждено уголовное дело, сообщили в пресс-службе Генпрокуратуры Узбекистана.</a>
-            </p>
+        <h2>Cамые популярные новости</h2>
+            <ul>
+              <li>
+                <a href="#">
+                  <h3>По факту прорыва Сардобинского водохранилища <br>
+                  возбуждено уголовное дело</h3>
+                  <time datetime="2020-07-07"> <i class='bx bx-calendar'></i> 11:31 / 15.05.2020</time>
+                  <hr>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h3>По факту прорыва Сардобинского водохранилища <br>
+                  возбуждено уголовное дело</h3>
+                  <time datetime="2020-07-07"> <i class='bx bx-calendar'></i> 11:31 / 15.05.2020</time>
+                  <hr>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h3>По факту прорыва Сардобинского водохранилища <br>
+                  возбуждено уголовное дело</h3>
+                  <time datetime="2020-07-07"> <i class='bx bx-calendar'></i> 11:31 / 15.05.2020</time>
+                  <hr>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h3>По факту прорыва Сардобинского водохранилища <br>
+                  возбуждено уголовное дело</h3>
+                  <time datetime="2020-07-07"> <i class='bx bx-calendar'></i> 11:31 / 15.05.2020</time>
+                </a>
+              </li>
+            </ul>
           </div>
-          <div>
-            <img src="rasm/calendar.svg" alt="calendar">
-            <time datetime="2020-02-22">2020-02-22</time>
-          </div>
-
-          <div>
-            <a href="#"><img src="rasm/2.jpg" alt="kengash"></a>
-          </div>
-          <div>
-            <h3><a href="#">Мирзиёев: «Нам следовало бы принять некоторые правила 
-              карантина как часть повседневной жизни»</a>
-            </h3>
-            <p><a href="#">Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.</a>
-            </p>
-          </div>
-          <div>
-            <img src="rasm/calendar.svg" alt="calendar">
-            <time datetime="2020-12-18">2020-12-18</time>
-          </div>
-
-          <div>
-            <a href="#"><img src="rasm/3.jpg" alt="kengash"></a>
-          </div>
-          <div>
-            <h3><a href="#">Мирзиёев: «Нам следовало бы принять некоторые правила 
-              карантина как часть повседневной жизни»</a>
-            </h3>
-            <p><a href="#">Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.</a>
-            </p>
-          </div>
-          <div>
-            <img src="rasm/calendar.svg" alt="calendar">
-            <time datetime="2020-12-18">2020-12-18</time>
-          </div>
-
-          <div>
-            <a href="#"><img src="rasm/4.jpg" alt="kengash"></a>
-          </div>
-          <div>
-            <h3><a href="#">Мирзиёев: «Нам следовало бы принять некоторые правила 
-              карантина как часть повседневной жизни»</a>
-            </h3>
-            <p><a href="#">Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.</a>
-            </p>
-          </div>
-          <div>
-            <img src="rasm/calendar.svg" alt="calendar">
-            <time datetime="2020-12-18">2020-12-18</time>
-          </div>
-
-          <div>
-            <a href="#"><img src="rasm/5.jpg" alt="kengash"></a>
-          </div>
-          <div>
-            <h3><a href="#">Мирзиёев: «Нам следовало бы принять некоторые правила 
-              карантина как часть повседневной жизни»</a>
-            </h3>
-            <p><a href="#">Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.</a>
-            </p>
-          </div>
-          <div>
-            <img src="rasm/calendar.svg" alt="calendar">
-            <time datetime="2020-12-18">2020-12-18</time>
-          </div>
-
-          <div>
-            <a href="#"><img src="rasm/6.jpg" alt="kengash"></a>
-          </div>
-          <div>
-            <h3><a href="#">Мирзиёев: «Нам следовало бы принять некоторые правила 
-              карантина как часть повседневной жизни»</a>
-            </h3>
-            <p><a href="#">Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.</a>
-            </p>
-          </div>
-          <div>
-            <img src="rasm/calendar.svg" alt="calendar">
-            <time datetime="2020-12-18">2020-12-18</time>
-          </div>
-
-          <div>
-            <a href="#"><img src="rasm/6.jpg" alt="kengash"></a>
-          </div>
-          <div>
-            <h3><a href="#">Мирзиёев: «Нам следовало бы принять некоторые правила 
-              карантина как часть повседневной жизни»</a>
-            </h3>
-            <p><a href="#">Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.</a>
-            </p>
-          </div>
-          <div>
-            <img src="rasm/calendar.svg" alt="calendar">
-            <time datetime="2020-12-18">2020-12-18</time>
-          </div>
-
-          <div>
-            <a href="#"><img src="rasm/7.jpg" alt="kengash"></a>
-          </div>
-          <div>
-            <h3><a href="#">Мирзиёев: «Нам следовало бы принять некоторые правила 
-              карантина как часть повседневной жизни»</a>
-            </h3>
-            <p><a href="#">Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.</a>
-            </p>
-          </div>
-          <div>
-            <img src="rasm/calendar.svg" alt="calendar">
-            <time datetime="2020-12-18">2020-12-18</time>
-          </div>
-
-          <div>
-            <a href="#"><img src="rasm/1.jpg" alt="kengash"></a>
-          </div>
-          <div>
-            <h3><a href="#">Мирзиёев: «Нам следовало бы принять некоторые правила 
-              карантина как часть повседневной жизни»</a>
-            </h3>
-            <p><a href="#">Президент Узбекистана заявил, что после того, как угроза коронавируса исчезнет, в стране следовало бы принять некоторые правила периода карантина как часть своей повседневной жизни.</a>
-            </p>
-          </div>
-          <div>
-            <img src="rasm/calendar.svg" alt="calendar">
-            <time datetime="2020-12-18">2020-12-18</time>
-          </div>
-        </div>
-        <a href="#">Больше новостей</a>
-      </div>
-    </section>
-
-    <section>
-      <div>
-        <h2>
-          Больше новостей
-        </h2>
-        <div>
-          <a href="#">По факту прорыва Сардобинского водохранилища 
-            возбуждено уголовное дело</a>
-          <img src="rasm/calendar.svg" alt="icon">
-          <time datetime="2020-4-21">2020-4-21</time>
-        </div>
-        <div>
-          <a href="#">По факту прорыва Сардобинского водохранилища 
-            возбуждено уголовное дело</a>
-            <img src="rasm/calendar.svg" alt="icon">
-            <time datetime="2020-4-21">2020-4-21</time>
-        </div>
-        <div>
-          <a href="#">По факту прорыва Сардобинского водохранилища 
-            возбуждено уголовное дело</a>
-          <img src="rasm/calendar.svg" alt="icon">
-          <time datetime="2020-4-21">2020-4-21</time>
-        </div>
-        <div>
-          <a href="#">По факту прорыва Сардобинского водохранилища 
-            возбуждено уголовное дело</a>
-          <img src="rasm/calendar.svg" alt="icon">
-          <time datetime="2020-4-21">2020-4-21</time>
+          <aside>
+            <a href="#">
+              <img src="img/reklama-ucell.jpg" alt="reklama" width="386" height="477">
+            </a>
+          </aside>
         </div>
       </div>
-      <aside>
-        <a href="#"><img src="rasm/reklama.jpg" alt="reklama" width="386" height="477"></a>
-      </aside>
     </section>
   </main>
 
   <footer>
-    <section>
-      <div>
+    <section class="footer-section">
+      <div class="footer-logo">
         <div>
-          <a href="#"><img src="rasm/logo.svg" alt="logo"></a>
+          <h3 style="color: white;">NAMANGANLIKLAR24</h3>
         </div>
         <div>
           <p>Подписывайтесь на наш канал в Telegram и будьте всегда в курсе самых последних новостей:</p>
@@ -266,9 +205,10 @@
           <button><a href="#"><img src="rasm/telegram.svg" alt="telegram"> Подписатся</a></button>
         </div>  
       </div>
-      <div>
-        <div>
-          <p>О сайте 
+      <hr>
+      <div class="footer-about">
+        <div class="footer-about__item">
+          <p>О сайте <br> <br>
             Воспроизводство, копирование, тиражирование, распростране ние и иное использование информации с сайта «NAMANGANLIKLAR24.UZ» возможно только с предварительного письменного разрешения редакции.
             </p>
         </div>
