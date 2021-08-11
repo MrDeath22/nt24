@@ -40,6 +40,10 @@ ul {
    justify-content: space-between;
 }
 
+.kurs-valut {
+   display: flex;
+}
+
 .nav-list {
    display: flex;
    flex-wrap: wrap row;
